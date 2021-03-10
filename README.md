@@ -4,7 +4,6 @@
 
     terraform init
     terraform apply
-    ssh ubuntu@{external-ip}
     ssh ubuntu@{external-ip} "echo ok"
     ok
     ssh test@{external-ip} "echo ok"
